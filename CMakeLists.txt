@@ -10,3 +10,6 @@ add_executable(test-ringbuf EXCLUDE_FROM_ALL test_ringbuf.c)
 include_directories(${GLIB_INCLUDE_DIRS})
 target_link_libraries(test-ringbuf ringbuf ${GLIB_LIBRARIES})
 add_custom_target(test test-ringbuf DEPENDS test-ringbuf)
+
+install(FILES ringbuf.h DESTINATION include)
+install(TARGETS ringbuf DESTINATION lib)
