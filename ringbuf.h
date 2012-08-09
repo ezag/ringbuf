@@ -1,3 +1,7 @@
+/* Project page: https://github.com/ezag/ringbuf
+   License: MIT (see LICENSE file or http://opensource.org/licenses/mit)
+   Copyright (c) 2012 Eugen Zagorodniy <https://github.com/ezag>
+*/
 #ifndef RINGBUF_H
 #define RINGBUF_H
 
